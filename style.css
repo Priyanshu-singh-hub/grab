@@ -38,8 +38,9 @@ header {
     background-image: url(search.png);
     background-repeat: no-repeat;
     padding-left: 35px;
-    background-position: center left;
+    background-position: 8px 12px;
     background-size: 24px;
+    font-size: 18px;
 }
 
 #header4>button {
@@ -49,6 +50,9 @@ header {
 }
 
 #header5 {
+    height: 24px;
+    width: 90px;
+    justify-content: space-around;
     border-color: white;
     border: 1px solid #bbb;
     display: flex;
@@ -56,4 +60,77 @@ header {
     padding: 10px;
     border-radius: 15px;
     cursor: pointer;
+    font-weight: 700;
+}
+
+#second {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+#third {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+h2 {
+    font-family: sans-serif;
+    padding-left: 25px;
+
+}
+
+#add-btn {
+    background-color: aliceblue;
+    border: 0.5px solid green;
+    color: green;
+    font-size: 15px;
+    border-radius: 8px;
+    width: 60px;
+    height: 40px;
+}
+
+#fourth {
+    display: flex;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#fourth1 {
+    border: 0.3px solid #bbb;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 4px #bbb;
+}
+
+#add-btn {
+    background-color: aliceblue;
+    border: 0.5px solid green;
+    color: green;
+    font-size: 15px;
+    border-radius: 8px;
+    width: 60px;
+    height: 40px;
+}
+
+#fifth {
+    display: flex;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#fifth1 {
+    border: 0.3px solid #bbb;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 4px #bbb;
 }
